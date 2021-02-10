@@ -6,5 +6,4 @@ excerpt: 'In this paper, a LSTM and GRU-based hybrid cryptocurrency prediction s
 date: 2020-12-01
 venue: 'Journal of Information Security and Applications'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S2214212620307535'
-citation: ''
 ---
