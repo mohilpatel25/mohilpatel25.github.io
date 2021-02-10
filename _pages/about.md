@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 
-About me
-======
-Testing
+UG-CSE student at Nirma University
+
+Machine learning and deep learning enthusiast
+Open for collaboration for projects and research
