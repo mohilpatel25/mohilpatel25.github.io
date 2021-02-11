@@ -47,11 +47,12 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}<a href="{{ post.url }}" rel="permalink"> Read more.</a></p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
+    <!--
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
@@ -59,6 +60,6 @@
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Read More</a></p>
     {% endif %}
-
+    -->
   </article>
 </div>
