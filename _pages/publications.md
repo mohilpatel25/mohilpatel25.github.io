@@ -14,3 +14,5 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-publication.html %}
 {% endfor %}
+
+<link rel="icon" type="image/png" href="{{ base_path }}/images/publicationicon.png">
