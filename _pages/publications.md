@@ -15,4 +15,7 @@ author_profile: true
   {% include archive-publication.html %}
 {% endfor %}
 
-<link rel="icon" type="image/png" href="{{ base_path }}/images/publicationicon.png">
+<script type="text/javascript">
+	document.querySelector("link[rel='shortcut icon']").href = "{{ base_path }}/images/publicationicon.png";
+	document.querySelector("link[rel*='icon']").href = "{{ base_path }}/images/publicationicon.png";
+</script>
